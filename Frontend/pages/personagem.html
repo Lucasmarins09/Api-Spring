@@ -1,0 +1,49 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/personagem.css">
+</head>
+<body>
+
+    <main>
+
+        <header>
+            <h1>Gerenciador de personagens</h1>
+            <div class="menu">
+                <button class="btn btn-success" onclick="abrirFormulario()">Novo</button>
+            </div>
+        </header>  
+        
+        <section class="formulario" id="formulario">
+            <div class="col-2">
+                <input type="text" id="id" placeholder="Código" readonly class="readonly">
+                <input type="text" id="nome" placeholder="Nome do personagem">
+            </div>
+            <div class="col-3">
+                <input type="text" id="universo" placeholder="Universo do personagem">
+                <input type="text" id="raca" placeholder="Raça do personagem">
+                <div class="checkbox">
+                    <input type="checkbox" id="vivo" checked="true">
+                    <label for="vivo">Personagem vivo</label>
+                </div>
+            </div>
+            <div>
+                <input type="text" id="imagem" placeholder="URL da imagem ...">
+            </div>
+            <div class="col-2">
+                <button class="btn btn-success" onclick="salvar()">Salvar</button>
+                <button class="btn btn-cancel" onclick="fecharFormulario()">Cancelar</button>
+            </div>
+        </section>
+        
+        <section class="lista-personagem" id="personagemList">
+            <p>Nenhum personagem adicionado na lista</p>
+        </section>
+
+    </main>
+    
+    <script src="../scripts/personagem.js"></script>
+</body>
+</html>

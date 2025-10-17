@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+}
+
+.container {
+    background-color: #ffffff;
+    margin: auto;
+    margin-top: 32px;
+    padding: 16px;
+    width: 600px;
+    border-radius: 8px;
+    box-shadow: #dedede 2px 2px 10px;
+}
+
+.btn {
+    border: none;
+    border-radius: 4px;
+    padding: 4px 8px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.btn-info {
+    background-color: #195ec5;
+}
+
+.alunoList {
+    padding: 32px 0;
+    text-align: center;
+}
+
+.form {
+    padding: 24px 0;
+}
+
+.form input {
+    width: 100%;
+    border: solid 1px #c0c0c0;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.alunoList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.card {
+    width: 100px;
+    padding: 16px;
+    border-radius: 8px;
+    background-color: #1178a8;
+    color: #ffffff;
+}

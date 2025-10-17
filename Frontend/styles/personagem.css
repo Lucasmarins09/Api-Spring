@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.borda {
+    border: solid 1px red;
+
+}
+
+body {
+    background-color: #2c2c2c;
+    height: 100vh;
+    width: 100%;
+}
+
+main {
+    width: 80%;
+    padding: 24px;
+    margin: auto;
+}
+
+header h1 {
+    color: #30800b;
+    text-align: center;
+}
+
+.menu {
+    padding: 24px 0;
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+}
+
+.btn {
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 4px;
+    color: #ffffff;
+}
+
+.btn-success {
+    background-color: #30800b;
+}
+
+.btn-cancel {
+    background-color: #575757;
+}
+
+.lista-personagem {
+    display: flex;
+    justify-content: center;
+}
+
+.lista-personagem p {
+    color: #7a7a7a;
+    padding: 48px;
+    width: 100%;
+    text-align: center;
+}
+
+
+.formulario {
+    padding: 24px 0;
+    display: none;
+}
+
+.visivel {
+    display: block;
+}
+
+.formulario input {
+    background-color: #2c2c2c;
+    border: none;
+    outline: none;
+    color: #7a7a7a;
+    border: solid 1px #7a7a7a;
+    border-radius: 4px;
+    width: 100%;
+    padding: 8px;
+}
+
+.formulario .readonly {
+    background-color: #424242;
+}
+
+.formulario .checkbox {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.formulario .checkbox label {
+    color: #7a7a7a;
+    width: 80%;
+}
+
+.formulario .checkbox input {
+    width: 50px;
+}
+
+.formulario div {
+    margin-bottom: 24px;
+}
+
+.col-2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 8px;
+}
+
+.col-3 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 8px;
+}
